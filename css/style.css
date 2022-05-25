@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 .estilos-body{
-    background-color:rgb(189, 185, 185);
+    background-color:rgba(210, 211, 236, 0.288);
 }
 
 
@@ -42,16 +42,8 @@
     margin: 1rem;
 
 }
-/*estilos formularios*/
-.estilos-formularios{
-    font-family:'Roboto', sans-serif; ;
-    font-weight: bolder;
-    font-size: 1.8rem;
-    padding: 1.5rem;
-    border: solid 0.2rem;
-    margin: 1rem;
-}
-header h1{
+
+.header-pages{
 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -60,6 +52,17 @@ header h1{
     margin: 1rem;
 
 }
+
+/*estilos formularios*/
+.estilos-formularios{
+    font-family:'Roboto', sans-serif; ;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 1.5rem;
+    border: solid 0.2rem;
+    margin: 1rem;
+}
+
 
 
 /*estilos y tamaños a imagenes y logos*/
@@ -180,6 +183,36 @@ header h1{
     
 }
 
+.icono-sobre{
+    width: 3%;
+}
+.icono-telefono{
+    width: 3%;
+}
+.icono-maps{
+    width: 2%;
+}
+
+/*estilos section pages*/
+.caja-1{
+    background-color:rgba(38, 43, 55, 0.751);
+    padding: 1rem;
+    margin-top: 3rem;
+    color: whitesmoke;
+}
+.caja-2{
+    background-color:rgba(38, 43, 55, 0.751);
+    padding: 1rem;
+    margin-top: 3rem;
+    color: whitesmoke;
+}
+.caja-3{
+    background-color:rgba(38, 43, 55, 0.751);
+    padding: 1rem;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    color: whitesmoke;
+}
 
 
 
@@ -261,22 +294,32 @@ header h1{
 }
 
 /*maquetando pages*/
-.caja-collection{
+.caja-contenedora{
     display: grid;
-    grid-template-areas: "header"
-                         "navbar"
-                         "main"
-                         "footer";
+    grid-template-areas:"header header header"
+                        "navbar navbar navbar"
+                        "main main main"
+                        "caja-1 caja-2 caja-3"
+                        "footer footer footer";
 }
 
-.header{
+.header-pages{
     grid-area: header;
 }
 .navbar{
     grid-area: navbar;
 }
-.galeria-fotos{
+.main-pages{
     grid-area: main;
+}
+.caja-1{
+    grid-area: caja-1;
+}
+.caja-2{
+    grid-area: caja-2;
+}
+.caja-3{
+    grid-area: caja-3;
 }
 .derechos-reservados{
     grid-area: footer;
@@ -284,10 +327,9 @@ header h1{
 
 
 
-.galeria-fotos div{
+.main-collection div{
     display: grid;
     height: 100vh;
-    grid-template-columns: repeat(3 33%);
     grid-template-areas: "galeria-1 galeria-2 galeria-3"
                          "galeria-4 galeria-5 galeria-6"
                          "galeria-7 galeria-8 galeria-9"
@@ -340,5 +382,4 @@ header h1{
 .galeria-16{
     grid-area: galeria-16;
 }
-
 

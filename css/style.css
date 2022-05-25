@@ -1,0 +1,344 @@
+
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.estilos-body{
+    background-color:rgb(189, 185, 185);
+}
+
+
+
+
+/*estilos titlulos*/
+
+.titulo-home{
+    color: rgb(34, 7, 59);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   ;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.section-2 h2{
+    color: rgb(30, 28, 28);
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+.aside-index h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-underline-position: below;
+    color:rgb(30, 28, 28);
+    margin: 1rem;
+
+}
+/*estilos formularios*/
+.estilos-formularios{
+    font-family:'Roboto', sans-serif; ;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    border: solid 0.2rem;
+    margin: 1rem;
+}
+header h1{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-underline-position: below;
+    color:rgb(30, 28, 28);
+    margin: 1rem;
+
+}
+
+
+/*estilos y tamaños a imagenes y logos*/
+
+.logo-facebook{
+    width: 3%;
+}
+
+.logo-instagram{
+    width: 3%;
+}
+
+.logo-whatsapp{
+    width: 3%;
+}
+
+.imagen-principal{
+    width: 100%;
+}
+
+.local-1{
+    width: 20%;
+
+}
+.local-2{
+    width: 20%;
+    
+}
+.local-3{
+    width: 20%;
+    
+}
+.local-4{
+    width: 20%;
+    
+}
+.local-5{
+    width: 20%;
+    
+}
+.local-6{
+    width: 20%;
+}
+.local-7{
+    width: 20%;
+    
+}
+
+.galeria-1{
+    width: 40%;
+
+}
+.galeria-2{
+    width: 40%;
+}
+
+
+.galeria-3{
+    width: 40%;
+    
+}
+.galeria-4{
+    width: 40%;
+    
+}
+.galeria-5{
+    width: 40%;
+    
+}
+.galeria-6{
+    width: 40%;
+
+    
+}
+.galeria-7{
+    width: 40%;
+    
+}
+.galeria-8{
+    width: 40%;
+    
+}
+.galeria-9{
+    width: 40%;
+    
+}
+.galeria-10{
+    width: 40%;
+    
+}
+.galeria-11{
+    width: 40%;
+    
+}
+.galeria-12{
+    width: 40%;
+    
+}
+.galeria-13{
+    width: 40%;
+    
+}
+.galeria-14{
+    width: 40%;
+    
+}
+
+.galeria-16{
+    width: 40%;
+    
+}
+.galeria-17{
+    width: 40%;
+    
+}
+.galeria-18{
+    width: 40%;
+    
+}
+
+
+
+
+
+
+/*animaciones index*/
+.logo-facebook:hover{
+    transform: scale(1.1);
+}
+.logo-instagram:hover{
+    transform: scale(1.1);
+}
+.logo-whatsapp:hover{
+    transform: scale(1.1);
+}
+.locales-todos{
+    animation-name: trasladar;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes trasladar{
+    from{
+        transform: translate(2000px);
+    }
+ 
+}
+
+/*estilos del footer*/
+.derechos-reservados h2{
+    color: rgb(16, 22, 32);
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+    font-size:small;
+    font-weight: bolder;
+    margin-top: 2rem;
+    text-align: end;
+}
+
+/*maquetando index*/
+
+.caja-index{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:25% 25% 50%;
+    grid-template-areas:"header header header"
+                        "navbar navbar section-index"
+                        "main main main"
+                        "aside aside aside"
+                        "section-2 section-2 section-2"
+                        "footer footer footer";
+}
+.header{
+    grid-area: header;
+}
+.navbar{
+    grid-area: navbar;
+}
+.section-index{
+    grid-area: section-index;
+}
+.estilos-main{
+    grid-area: main;
+}
+.aside-index{
+    grid-area: aside;
+}
+.section-2{
+    grid-area: section-2;
+}
+.derechos-reservados{
+    grid-area: footer;
+}
+
+.section-index div{
+    display: flex; 
+    flex-direction: column;    
+
+}
+
+/*maquetando pages*/
+.caja-collection{
+    display: grid;
+    grid-template-areas: "header"
+                         "navbar"
+                         "main"
+                         "footer";
+}
+
+.header{
+    grid-area: header;
+}
+.navbar{
+    grid-area: navbar;
+}
+.galeria-fotos{
+    grid-area: main;
+}
+.derechos-reservados{
+    grid-area: footer;
+}
+
+
+
+.galeria-fotos div{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3 33%);
+    grid-template-areas: "galeria-1 galeria-2 galeria-3"
+                         "galeria-4 galeria-5 galeria-6"
+                         "galeria-7 galeria-8 galeria-9"
+                         "galeria-10 galeria-11 galeria-12"
+                         "galeria-13 galeria-14 galeria-16";
+}
+
+.galeria-1{
+    grid-area: galeria-1;
+}
+.galeria-2{
+    grid-area: galeria-2;
+}
+.galeria-3{
+    grid-area: galeria-3;
+}
+.galeria-4{
+    grid-area: galeria-4;
+}
+.galeria-5{
+    grid-area: galeria-5;
+}
+.galeria-6{
+    grid-area: galeria-6;
+}
+.galeria-7{
+    grid-area: galeria-7;
+}
+.galeria-8{
+    grid-area: galeria-8;
+}
+.galeria-9{
+    grid-area: galeria-9;
+}
+.galeria-10{
+    grid-area: galeria-10;
+}
+.galeria-11{
+    grid-area: galeria-11;
+}
+.galeria-12{
+    grid-area: galeria-12;
+}
+.galeria-13{
+    grid-area: galeria-13;
+}
+.galeria-14{
+    grid-area: galeria-14;
+}
+.galeria-16{
+    grid-area: galeria-16;
+}
+
+

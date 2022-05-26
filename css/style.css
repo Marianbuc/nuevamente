@@ -383,3 +383,23 @@
     grid-area: galeria-16;
 }
 
+/*mq*/
+
+@media screen and (min-width:400px) {
+   .caja-contenedora{
+       display: grid;
+       grid-template-areas:"header"
+                           "navbar"
+                           "main"
+                           "caja-1"
+                           "caja-2"
+                           "caja-3"
+                           "footer" ;
+   }
+
+   .imagen-personas{
+       display: none;
+   }
+    
+}
+

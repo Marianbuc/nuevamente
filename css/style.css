@@ -1,405 +1,501 @@
-
 /*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.estilos-body{
-    background-color:rgba(210, 211, 236, 0.288);
-}
+/*estilos del body*/
+.estilos-body {
+  background-color: #e7e7d9; }
 
-
-
-
-/*estilos titlulos*/
-
-.titulo-home{
-    color: rgb(34, 7, 59);
+/*estilos header*/
+header {
+  margin-top: 8rem; }
+  header .titulo-home {
+    color: #052b1d;
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   ;
-    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 5rem;
+    font-weight: bold; }
+
+.header-contacto {
+  margin-top: 5rem;
+  padding: 1rem; }
+  .header-contacto h1 {
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-}
+    text-decoration: underline;
+    color: #052b1d;
+    margin: 1rem; }
 
-.section-2 h2{
-    color: rgb(30, 28, 28);
+.header-collection {
+  margin-top: 5rem;
+  padding: 1rem; }
+  .header-collection h1 {
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #052b1d;
+    margin: 1rem;
+    text-align: center; }
+
+.header-qs {
+  margin-top: 5rem;
+  padding: 1rem; }
+  .header-qs h1 {
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #052b1d;
+    margin: 1rem;
+    text-align: center; }
+
+/* estilos navbar*/
+.navbar {
+  position: absolute;
+  top: 1%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold; }
+
+/*estilos section*/
+.section-index {
+  margin: 1rem;
+  padding: 0.5rem;
+  position: relative;
+  left: 93%; }
+  .section-index div .logo-facebook {
+    width: 5%; }
+  .section-index div .logo-facebook:hover {
+    transform: scale(1.1); }
+  .section-index div .logo-instagram {
+    width: 5%; }
+  .section-index div .logo-instagram:hover {
+    transform: scale(1.1); }
+  .section-index div .logo-whatsapp {
+    width: 5%; }
+  .section-index div .logo-whatsapp:hover {
+    transform: scale(1.1); }
+
+.section-2 {
+  margin: 1rem;
+  padding: 1rem; }
+  .section-2 h2 {
+    color: #1e1c1c;
     text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bolder;
     text-decoration: underline;
-    margin-top: 1rem;
-}
-.aside-index h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-underline-position: below;
-    color:rgb(30, 28, 28);
-    margin: 1rem;
-
-}
-
-.header-pages{
-
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-underline-position: below;
-    color:rgb(30, 28, 28);
-    margin: 1rem;
-
-}
-
-/*estilos formularios*/
-.estilos-formularios{
-    font-family:'Roboto', sans-serif; ;
-    font-weight: bolder;
-    font-size: 1rem;
-    padding: 1.5rem;
-    border: solid 0.2rem;
-    margin: 1rem;
-}
-
-
-
-/*estilos y tamaños a imagenes y logos*/
-
-.logo-facebook{
-    width: 3%;
-}
-
-.logo-instagram{
-    width: 3%;
-}
-
-.logo-whatsapp{
-    width: 3%;
-}
-
-.imagen-principal{
-    width: 100%;
-}
-
-.local-1{
-    width: 20%;
-
-}
-.local-2{
-    width: 20%;
-    
-}
-.local-3{
-    width: 20%;
-    
-}
-.local-4{
-    width: 20%;
-    
-}
-.local-5{
-    width: 20%;
-    
-}
-.local-6{
-    width: 20%;
-}
-.local-7{
-    width: 20%;
-    
-}
-
-.galeria-1{
-    width: 40%;
-
-}
-.galeria-2{
-    width: 40%;
-}
-
-
-.galeria-3{
-    width: 40%;
-    
-}
-.galeria-4{
-    width: 40%;
-    
-}
-.galeria-5{
-    width: 40%;
-    
-}
-.galeria-6{
-    width: 40%;
-
-    
-}
-.galeria-7{
-    width: 40%;
-    
-}
-.galeria-8{
-    width: 40%;
-    
-}
-.galeria-9{
-    width: 40%;
-    
-}
-.galeria-10{
-    width: 40%;
-    
-}
-.galeria-11{
-    width: 40%;
-    
-}
-.galeria-12{
-    width: 40%;
-    
-}
-.galeria-13{
-    width: 40%;
-    
-}
-.galeria-14{
-    width: 40%;
-    
-}
-
-.galeria-16{
-    width: 40%;
-    
-}
-.galeria-17{
-    width: 40%;
-    
-}
-.galeria-18{
-    width: 40%;
-    
-}
-
-.icono-sobre{
-    width: 3%;
-}
-.icono-telefono{
-    width: 3%;
-}
-.icono-maps{
-    width: 2%;
-}
-
-/*estilos section pages*/
-.caja-1{
-    background-color:rgba(38, 43, 55, 0.751);
-    padding: 1rem;
-    margin-top: 3rem;
-    color: whitesmoke;
-}
-.caja-2{
-    background-color:rgba(38, 43, 55, 0.751);
-    padding: 1rem;
-    margin-top: 3rem;
-    color: whitesmoke;
-}
-.caja-3{
-    background-color:rgba(38, 43, 55, 0.751);
-    padding: 1rem;
-    padding-left: 2rem;
-    margin-top: 3rem;
-    color: whitesmoke;
-}
-
-
-
-
-
-/*animaciones index*/
-.logo-facebook:hover{
-    transform: scale(1.1);
-}
-.logo-instagram:hover{
-    transform: scale(1.1);
-}
-.logo-whatsapp:hover{
-    transform: scale(1.1);
-}
-.locales-todos{
+    margin-top: 1rem; }
+  .section-2 .locales-todos .local-3 {
+    width: 23%; }
+  .section-2 .locales-todos .local-4 {
+    width: 23%; }
+  .section-2 .locales-todos .local-5 {
+    width: 23%; }
+  .section-2 .locales-todos .local-6 {
+    width: 23%; }
+  .section-2 .locales-todos {
     animation-name: trasladar;
     animation-duration: 10s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-@keyframes trasladar{
-    from{
-        transform: translate(2000px);
-    }
- 
-}
+    animation-iteration-count: infinite; }
 
-/*estilos del footer*/
-.derechos-reservados h2{
-    color: rgb(16, 22, 32);
-    font-family: 'Roboto', sans-serif;
-    text-align: end;
-    font-size:small;
+@keyframes trasladar {
+  from {
+    transform: translate(2000px); } }
+
+.caja-1 {
+  background-color: rgba(38, 43, 55, 0.751);
+  border: solid 0.1rem #373535;
+  padding: 1rem;
+  margin-top: 2rem; }
+  .caja-1 h3 {
+    padding: 1rem;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold; }
+  .caja-1 div .icono-sobre {
+    width: 3%; }
+  .caja-1 div .icono-telefono {
+    width: 3%; }
+  .caja-1 div p {
+    font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    margin-top: 2rem;
+    color: whitesmoke; }
+
+.caja-2 {
+  background-color: rgba(38, 43, 55, 0.751);
+  padding: 1rem;
+  border: solid 0.1rem #373535;
+  margin-top: 2rem; }
+  .caja-2 h3 {
+    padding: 1rem;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold; }
+  .caja-2 div .icono-maps {
+    width: 3%; }
+  .caja-2 div p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    color: whitesmoke; }
+
+.caja-3 {
+  background-color: rgba(38, 43, 55, 0.751);
+  border: solid 0.1rem #373535;
+  padding: 1rem;
+  margin-top: 2rem; }
+  .caja-3 h3 {
+    padding: 1rem;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold; }
+  .caja-3 .logo-facebook {
+    width: 5%; }
+  .caja-3 .logo-facebook:hover {
+    transform: scale(1.1); }
+  .caja-3 .logo-instagram {
+    width: 5%; }
+  .caja-3 .logo-instagram:hover {
+    transform: scale(1.1); }
+
+/*estilos main*/
+.estilos-main {
+  margin: 1rem;
+  padding: 1rem; }
+  .estilos-main div .imagen-principal {
+    width: 100%;
+    margin-bottom: 1rem; }
+
+.main-contacto {
+  margin: 1rem;
+  padding: 1rem; }
+  .main-contacto h2 {
+    color: #1e1c1c;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold; }
+  .main-contacto p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder; }
+
+.main-collection {
+  margin: 1rem;
+  padding: 1rem; }
+  .main-collection .card-1 {
+    padding: 1rem; }
+    .main-collection .card-1 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-2 {
+    padding: 1rem; }
+    .main-collection .card-2 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-3 {
+    padding: 1rem; }
+    .main-collection .card-3 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-4 {
+    padding: 1rem; }
+    .main-collection .card-4 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-5 {
+    padding: 1rem; }
+    .main-collection .card-5 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-6 {
+    padding: 1rem; }
+    .main-collection .card-6 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-7 {
+    padding: 1rem; }
+    .main-collection .card-7 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-8 {
+    padding: 1rem; }
+    .main-collection .card-8 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-9 {
+    padding: 1rem; }
+    .main-collection .card-9 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-10 {
+    padding: 1rem; }
+    .main-collection .card-10 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-11 {
+    padding: 1rem; }
+    .main-collection .card-11 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-12 {
+    padding: 1rem; }
+    .main-collection .card-12 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-13 {
+    padding: 1rem; }
+    .main-collection .card-13 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-14 {
+    padding: 1rem; }
+    .main-collection .card-14 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-15 {
+    padding: 1rem; }
+    .main-collection .card-15 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+  .main-collection .card-16 {
+    padding: 1rem; }
+    .main-collection .card-16 .card-body .card-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      padding: 0.5rem 0.5rem; }
+
+.main-qs {
+  padding: 1rem; }
+  .main-qs .parrafo-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    padding: 2rem; }
+  .main-qs .parrafo-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    padding: 2rem; }
+  .main-qs .imagen-personas {
+    width: 100%; }
+
+/*estilos aside*/
+.aside-1 {
+  margin: 1rem;
+  border: solid 0.4rem #191927;
+  text-decoration: underline; }
+  .aside-1 .estilos-formularios {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 1rem; }
+
+.aside-contacto {
+  margin: 1rem;
+  padding: 1rem;
+  border: solid 0.4rem #191927;
+  text-decoration: underline; }
+  .aside-contacto .estilos-formularios {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 1rem; }
+
+/*estilos footer*/
+.derechos-reservados {
+  margin-top: 5rem;
+  text-align: end; }
+  .derechos-reservados h2 {
     text-align: end;
-}
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    color: #bcb28c; }
 
-/*maquetando index*/
+/*estructurando*/
+.caja-index {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 25% 25% 50%;
+  grid-template-areas: "navbar navbar section-index" "header header header" "main main main" "aside section-2 section-2" "footer footer footer"; }
 
-.caja-index{
-    display: grid;
-    height: 100vh;
-    grid-template-columns:25% 25% 50%;
-    grid-template-areas:"header header header"
-                        "navbar navbar section-index"
-                        "main main main"
-                        "aside aside aside"
-                        "section-2 section-2 section-2"
-                        "footer footer footer";
-}
-.header{
-    grid-area: header;
-}
-.navbar{
-    grid-area: navbar;
-}
-.section-index{
-    grid-area: section-index;
-}
-.estilos-main{
-    grid-area: main;
-}
-.aside-index{
-    grid-area: aside;
-}
-.section-2{
-    grid-area: section-2;
-}
-.derechos-reservados{
-    grid-area: footer;
-}
+.header {
+  grid-area: header; }
 
-.section-index div{
-    display: flex; 
-    flex-direction: column;    
+.navbar {
+  grid-area: navbar; }
 
-}
+.section-index {
+  grid-area: section-index; }
 
-/*maquetando pages*/
-.caja-contenedora{
-    display: grid;
-    grid-template-areas:"header header header"
-                        "navbar navbar navbar"
-                        "main main main"
-                        "caja-1 caja-2 caja-3"
-                        "footer footer footer";
-}
+.estilos-main {
+  grid-area: main; }
 
-.header-pages{
-    grid-area: header;
-}
-.navbar{
-    grid-area: navbar;
-}
-.main-pages{
-    grid-area: main;
-}
-.caja-1{
-    grid-area: caja-1;
-}
-.caja-2{
-    grid-area: caja-2;
-}
-.caja-3{
-    grid-area: caja-3;
-}
-.derechos-reservados{
-    grid-area: footer;
-}
+.aside-1 {
+  grid-area: aside; }
 
+.section-2 {
+  grid-area: section-2; }
 
+.derechos-reservados {
+  grid-area: footer; }
 
-.main-collection div{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "galeria-1 galeria-2 galeria-3"
-                         "galeria-4 galeria-5 galeria-6"
-                         "galeria-7 galeria-8 galeria-9"
-                         "galeria-10 galeria-11 galeria-12"
-                         "galeria-13 galeria-14 galeria-16";
-}
+.section-index div {
+  display: flex;
+  flex-direction: column; }
 
-.galeria-1{
-    grid-area: galeria-1;
-}
-.galeria-2{
-    grid-area: galeria-2;
-}
-.galeria-3{
-    grid-area: galeria-3;
-}
-.galeria-4{
-    grid-area: galeria-4;
-}
-.galeria-5{
-    grid-area: galeria-5;
-}
-.galeria-6{
-    grid-area: galeria-6;
-}
-.galeria-7{
-    grid-area: galeria-7;
-}
-.galeria-8{
-    grid-area: galeria-8;
-}
-.galeria-9{
-    grid-area: galeria-9;
-}
-.galeria-10{
-    grid-area: galeria-10;
-}
-.galeria-11{
-    grid-area: galeria-11;
-}
-.galeria-12{
-    grid-area: galeria-12;
-}
-.galeria-13{
-    grid-area: galeria-13;
-}
-.galeria-14{
-    grid-area: galeria-14;
-}
-.galeria-16{
-    grid-area: galeria-16;
-}
+.caja-contacto {
+  display: grid;
+  grid-template-areas: "navbar navbar navbar" "header header header" "main main main" "aside aside aside" "caja-1 caja-2 caja-3" "footer footer footer"; }
 
-/*mq*/
+.header-contacto {
+  grid-area: header; }
 
-@media screen and (min-width:400px) {
-   .caja-contenedora{
-       display: grid;
-       grid-template-areas:"header"
-                           "navbar"
-                           "main"
-                           "caja-1"
-                           "caja-2"
-                           "caja-3"
-                           "footer" ;
-   }
+.navbar {
+  grid-area: navbar; }
 
-   .imagen-personas{
-       display: none;
-   }
-    
-}
+.main-contacto {
+  grid-area: main; }
 
+.aside-contacto {
+  grid-area: aside; }
+
+.caja-1 {
+  grid-area: caja-1; }
+
+.caja-2 {
+  grid-area: caja-2; }
+
+.caja-3 {
+  grid-area: caja-3; }
+
+.derechos-reservados {
+  grid-area: footer; }
+
+.caja-collection {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "navbar navbar navbar" "header header header" "main main main" "caja-1 caja-2 caja-3" "footer footer footer"; }
+
+.navbar {
+  grid-area: navbar; }
+
+.header-collection {
+  grid-area: header; }
+
+.main-collection {
+  grid-area: main; }
+
+.caja-1 {
+  grid-area: caja-1; }
+
+.caja-2 {
+  grid-area: caja-2; }
+
+.caja-3 {
+  grid-area: caja-3; }
+
+.derechos-reservados {
+  grid-area: footer; }
+
+.main-collection {
+  display: grid;
+  grid-template-areas: "card-1 card-2 card-3" "card-4 card-5 card-6" "card-7 card-8 card-9" "card-10 card-11 card-12" "card-13 card-14 card-15" "card-16 card-16 card-16"; }
+
+.card-1 {
+  grid-area: card-1; }
+
+.card-2 {
+  grid-area: card-2; }
+
+.card-3 {
+  grid-area: card-3; }
+
+.card-4 {
+  grid-area: card-4; }
+
+.card-5 {
+  grid-area: card-5; }
+
+.card-6 {
+  grid-area: card-6; }
+
+.card-7 {
+  grid-area: card-7; }
+
+.card-8 {
+  grid-area: card-8; }
+
+.card-9 {
+  grid-area: card-9; }
+
+.card-10 {
+  grid-area: card-10; }
+
+.card-11 {
+  grid-area: card-11; }
+
+.card-12 {
+  grid-area: card-12; }
+
+.card-13 {
+  grid-area: card-13; }
+
+.card-14 {
+  grid-area: card-14; }
+
+.card-15 {
+  grid-area: card-15; }
+
+.card-16 {
+  grid-area: card-16; }
+
+.caja-qs {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "navbar navbar navbar" "header header header" "main main main" "caja-1 caja-2 caja-3" "footer footer footer"; }
+
+.navbar {
+  grid-area: navbar; }
+
+.header-qs {
+  grid-area: header; }
+
+.main-qs {
+  grid-area: main; }
+
+.caja-1 {
+  grid-area: caja-1; }
+
+.caja-2 {
+  grid-area: caja-2; }
+
+.caja-3 {
+  grid-area: caja-3; }
+
+.derechos-reservados {
+  grid-area: footer; }
+
+.main-qs {
+  display: grid;
+  grid-template-areas: "parrafo-1 parrafo-2" "imagen-persona imagen-persona"; }
+
+.parrafo-1 {
+  grid-area: parrafo-1; }
+
+.parrafo-2 {
+  grid-area: parrafo-2; }
+
+.imagen-personas {
+  grid-area: imagen-persona; }

@@ -1,0 +1,722 @@
+//import
+
+@import "utilities/variables";
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos del body*/
+
+.estilos-body{
+    background-color:$color-fondo
+}
+
+/*estilos header*/
+header{
+    margin-top: 8rem;
+    .titulo-home {
+        color:$color-primario;
+        text-align:center;
+        font-family: $font-family;
+        font-size: 5rem;
+        font-weight: bold;
+        
+    }
+}
+
+
+.header-contacto{
+    margin-top: 5rem;
+    padding: $pading-1;
+    h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        color:$color-primario;
+        margin: $margin-1;
+    }
+}
+
+.header-collection{
+    margin-top: 5rem;
+    padding: $pading-1;
+    h1{
+        font-size: 3.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        color:$color-primario;
+        margin: $margin-1;
+        text-align: center;   
+    }
+}
+
+.header-qs{
+    margin-top: 5rem;
+    padding: $pading-1;
+    h1{
+        font-size: 3.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        color:$color-primario;
+        margin: $margin-1;
+        text-align: center;   
+    }
+}
+
+
+
+/* estilos navbar*/
+.navbar{
+    position: absolute;
+    top: 1%;
+    font-family: $font-family;
+    font-weight: bold
+}
+
+
+/*estilos section*/
+.section-index{
+    margin: $margin-1;
+    padding: 0.5rem;
+    position: relative;
+    left: 93%;
+    
+    div{
+        .logo-facebook{
+            width: $medidas-logos;
+        }
+        .logo-facebook:hover{
+            transform: scale(1.1);
+        }
+        .logo-instagram{
+            width: $medidas-logos;
+        }
+        .logo-instagram:hover{
+            transform: scale(1.1);
+        }
+        .logo-whatsapp{
+            width: $medidas-logos; 
+        }
+        .logo-whatsapp:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+.section-2{
+    margin: $margin-1;
+    padding: $pading-1;
+    h2{
+        color: rgb(30, 28, 28);
+        text-align: center;
+        font-family: $font-family;
+        font-weight: bolder;
+        text-decoration: underline;
+        margin-top: 1rem;
+    }
+    .locales-todos{
+        .local-3{
+            width:$medidas-locales
+        }
+        .local-4{
+            width: $medidas-locales
+        }
+   
+       .local-5{
+           width: $medidas-locales;
+       }
+       .local-6{
+           width: $medidas-locales;
+       }
+    }
+    .locales-todos{
+        animation-name: trasladar;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    @keyframes trasladar{
+        from{
+            transform: translate(2000px);
+        }
+    
+    }
+
+
+}
+
+.caja-1{
+     background-color:rgba(38, 43, 55, 0.751);
+     border: solid 0.1rem rgb(55, 53, 53);
+     padding: 1rem;
+     margin-top: 2rem;
+    h3{
+        padding: $pading-1;
+        color: whitesmoke;
+        font-family: $font-family;
+        font-weight: bold;
+    }
+    div{
+        .icono-sobre{
+             width:$medidas-iconos;
+             }
+        .icono-telefono{
+              width:$medidas-iconos;
+        }     
+        p{
+              font-family: $font-family;
+              font-weight: bolder;
+              color: whitesmoke;
+        }  
+        
+        
+    }
+
+}
+
+.caja-2{
+         background-color:rgba(38, 43, 55, 0.751);
+         padding: 1rem;
+         border: solid 0.1rem rgb(55, 53, 53);
+        margin-top: 2rem;
+         
+    h3{
+        padding: $pading-1;
+        color: whitesmoke;
+        font-family: $font-family;
+        font-weight: bold;
+    }
+    div{
+        .icono-maps{
+             width:$medidas-iconos;
+             }
+         
+        p{
+              font-family: $font-family;
+              font-weight: bolder;
+              color: whitesmoke;
+        }     
+    }
+
+}
+
+.caja-3{
+    background-color:rgba(38, 43, 55, 0.751);
+    border: solid 0.1rem rgb(55, 53, 53);
+    padding: 1rem;
+    margin-top: 2rem;
+   h3{
+       padding: $pading-1;
+       color: whitesmoke;
+       font-family: $font-family;
+       font-weight: bold;
+   }
+   
+       .logo-facebook{
+             width:$medidas-logos;
+             }
+       .logo-facebook:hover{
+                transform: scale(1.1);
+             }
+       .logo-instagram{
+             width:$medidas-logos;
+             } 
+       .logo-instagram:hover{
+        transform: scale(1.1);
+        }
+   
+
+}
+
+
+/*estilos main*/
+.estilos-main{
+    margin: $margin-1;
+    padding: $pading-1;
+     div{
+         .imagen-principal{
+            width: 100%;
+            margin-bottom: $margin-1;
+        
+        }
+    }
+}
+
+.main-contacto{
+    margin: $margin-1;
+    padding: $pading-1;
+    h2{
+        color: rgb(30, 28, 28);
+        font-family: $font-family;
+        font-weight: bold;
+        
+    }
+    p{
+        font-family: $font-family;
+        font-weight: bolder;
+    }
+}
+
+.main-collection{
+    margin: $margin-1;
+    padding: $pading-1;
+    .card-1{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-2{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-3{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-4{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-5{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-6{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-7{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-8{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-9{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-10{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-11{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-12{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-13{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-14{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-15{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+    .card-16{
+        padding: $pading-1;
+        .card-body{
+            .card-title{
+                font-family: $font-family;
+                font-weight: bold;
+                padding: 0.5rem 0.5rem;
+            }
+            
+        }
+    }
+
+
+}
+
+.main-qs{
+    padding: $pading-1;
+    .parrafo-1{
+        font-family: $font-family;
+        font-weight: bolder;
+        padding: 2rem;
+    }
+    .parrafo-2{
+        font-family: $font-family;
+        font-weight: bolder;
+        padding: 2rem;
+    }
+    .imagen-personas{
+       width: 100%;
+    }
+}
+
+
+/*estilos aside*/
+
+.aside-1{ 
+    margin: $margin-1;
+    
+    border: solid 0.4rem rgb(25, 25, 39);;
+    text-decoration: underline;
+    
+    .estilos-formularios{
+        font-family:$font-family;
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+
+}
+
+.aside-contacto{
+    margin: $margin-1;
+    padding: $pading-1;
+    border: solid 0.4rem rgb(25, 25, 39);;
+    text-decoration: underline;
+    .estilos-formularios{
+        font-family:$font-family;
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+}
+
+/*estilos footer*/
+.derechos-reservados{
+    margin-top: 5rem;
+    text-align: end;
+    h2{
+      text-align: end;
+      font-family:$font-family;
+      font-size: small;
+      color: $color-terciario;
+
+    }
+}
+
+/*estructurando*/
+
+.caja-index{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:25% 25% 50%;
+    grid-template-areas:"navbar navbar section-index"
+                        "header header header"
+                        "main main main"
+                        "aside section-2 section-2"
+                        "footer footer footer";
+}
+.header{
+    grid-area: header;
+}
+.navbar{
+    grid-area: navbar;
+}
+.section-index{
+    grid-area: section-index;
+}
+.estilos-main{
+    grid-area: main;
+}
+.aside-1{
+    grid-area: aside;
+}
+.section-2{
+    grid-area: section-2;
+}
+.derechos-reservados{
+    grid-area: footer;
+}
+
+.section-index div{
+    display: flex; 
+    flex-direction: column;    
+
+}
+
+.caja-contacto{
+    display: grid;
+    grid-template-areas:"navbar navbar navbar"
+                        "header header header"
+                        "main main main"
+                        "aside aside aside"
+                        "caja-1 caja-2 caja-3"
+                        "footer footer footer";
+}
+
+.header-contacto{
+    grid-area: header;
+}
+.navbar{
+    grid-area: navbar;
+}
+.main-contacto{
+    grid-area: main;
+}
+.aside-contacto{
+    grid-area: aside;
+}
+.caja-1{
+    grid-area: caja-1;
+}
+.caja-2{
+    grid-area: caja-2;
+}
+.caja-3{
+    grid-area: caja-3;
+}
+.derechos-reservados{
+    grid-area: footer;
+}
+
+
+
+.caja-collection{
+    display: grid;
+    height: 100vh;
+    grid-template-areas:"navbar navbar navbar"
+                        "header header header"
+                        "main main main"
+                        "caja-1 caja-2 caja-3"
+                        "footer footer footer";
+}
+
+.navbar{
+    grid-area: navbar;
+}
+.header-collection{
+    grid-area: header;
+}
+.main-collection{
+    grid-area: main;
+}
+.caja-1{
+    grid-area: caja-1;
+}
+.caja-2{
+    grid-area: caja-2;
+}
+.caja-3{
+    grid-area: caja-3;
+}
+.derechos-reservados{
+    grid-area: footer;
+}
+
+
+.main-collection{
+    display: grid;
+    grid-template-areas:"card-1 card-2 card-3"
+                        "card-4 card-5 card-6"
+                        "card-7 card-8 card-9"
+                        "card-10 card-11 card-12"
+                        "card-13 card-14 card-15"
+                        "card-16 card-16 card-16";
+}
+
+.card-1{
+    grid-area: card-1;
+}
+.card-2{
+    grid-area: card-2;
+}
+.card-3{
+    grid-area: card-3;
+}
+.card-4{
+    grid-area: card-4;
+}
+.card-5{
+    grid-area: card-5;
+}
+.card-6{
+    grid-area: card-6;
+}
+.card-7{
+    grid-area: card-7;
+}
+.card-8{
+    grid-area: card-8;
+}
+.card-9{
+    grid-area: card-9;
+}
+.card-10{
+    grid-area: card-10;
+}
+.card-11{
+    grid-area: card-11;
+}
+.card-12{
+    grid-area: card-12;
+}
+.card-13{
+    grid-area: card-13;
+}
+.card-14{
+    grid-area: card-14;
+}
+.card-15{
+    grid-area: card-15;
+}
+.card-16{
+    grid-area: card-16;
+}
+
+.caja-qs{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "navbar navbar navbar"
+                         "header header header"
+                         "main main main"
+                         "caja-1 caja-2 caja-3"
+                         "footer footer footer";
+}
+
+.navbar{
+    grid-area: navbar;
+}
+.header-qs{
+    grid-area: header;
+}
+.main-qs{
+    grid-area: main;
+}
+.caja-1{
+    grid-area: caja-1;
+}
+.caja-2{
+    grid-area: caja-2;
+}
+.caja-3{
+    grid-area: caja-3;
+}
+.derechos-reservados{
+    grid-area: footer;
+}
+
+.main-qs{
+    display: grid;
+    grid-template-areas: "parrafo-1 parrafo-2"
+                         "imagen-persona imagen-persona";
+}
+.parrafo-1{
+    grid-area: parrafo-1;
+}
+.parrafo-2{
+    grid-area: parrafo-2;
+}
+.imagen-personas{
+    grid-area: imagen-persona;
+}

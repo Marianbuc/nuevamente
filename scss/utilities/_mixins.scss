@@ -1,0 +1,18 @@
+
+
+@mixin h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;
+    text-decoration: underline;
+    color:$color-primario;
+    margin: $margin-1;
+    text-align: center;  
+}
+
+@mixin p{
+    font-family: $font-family;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: $pading-1;
+}

@@ -1,3 +1,18 @@
+.main-collection .card-1, .main-collection .card-2, .main-collection .card-3, .main-collection .card-4, .main-collection .card-5, .main-collection .card-6, .main-collection .card-7, .main-collection .card-8, .main-collection .card-9, .main-collection .card-10, .main-collection .card-11, .main-collection .card-12, .main-collection .card-13, .main-collection .card-14, .main-collection .card-15, .main-collection .card-16 {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: black; }
+
+.main-collection .card-1 .card-body .card-title, .main-collection .card-2 .card-body .card-title, .main-collection .card-3 .card-body .card-title, .main-collection .card-4 .card-body .card-title, .main-collection .card-5 .card-body .card-title, .main-collection .card-6 .card-body .card-title, .main-collection .card-7 .card-body .card-title, .main-collection .card-8 .card-body .card-title, .main-collection .card-9 .card-body .card-title, .main-collection .card-10 .card-body .card-title, .main-collection .card-11 .card-body .card-title, .main-collection .card-12 .card-body .card-title, .main-collection .card-13 .card-body .card-title, .main-collection .card-14 .card-body .card-title, .main-collection .card-15 .card-body .card-title, .main-collection .card-16 .card-body .card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 0.5rem 0.5rem;
+  color: whitesmoke; }
+
+header, .header-contacto, .header-collection, .header-qs {
+  margin-top: 5rem;
+  padding: 1rem; }
+
 /*reset*/
 * {
   margin: 0;
@@ -6,58 +21,49 @@
 
 /*estilos del body*/
 .estilos-body {
-  background-color: #e7e7d9; }
+  background-color: #1f1f1b; }
 
 /*estilos header*/
-header {
-  margin-top: 8rem; }
-  header .titulo-home {
-    color: #052b1d;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 5rem;
-    font-weight: bold; }
+header .titulo-home {
+  color: #eed0e9;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  font-weight: 400; }
 
-.header-contacto {
-  margin-top: 5rem;
-  padding: 1rem; }
-  .header-contacto h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
-    color: #052b1d;
-    margin: 1rem; }
+.header-contacto h1 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  color: #eed0e9;
+  margin: 1rem;
+  text-align: center; }
 
-.header-collection {
-  margin-top: 5rem;
-  padding: 1rem; }
-  .header-collection h1 {
-    font-size: 3.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
-    color: #052b1d;
-    margin: 1rem;
-    text-align: center; }
+.header-collection h1 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  color: #eed0e9;
+  margin: 1rem;
+  text-align: center; }
 
-.header-qs {
-  margin-top: 5rem;
-  padding: 1rem; }
-  .header-qs h1 {
-    font-size: 3.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
-    color: #052b1d;
-    margin: 1rem;
-    text-align: center; }
+.header-qs h1 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  color: #eed0e9;
+  margin: 1rem;
+  text-align: center; }
 
 /* estilos navbar*/
 .navbar {
   position: absolute;
   top: 1%;
   font-family: "Roboto", sans-serif;
-  font-weight: bold; }
+  font-weight: b; }
 
 /*estilos section*/
 .section-index {
@@ -123,7 +129,8 @@ header {
   .caja-1 div p {
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    color: whitesmoke; }
+    color: whitesmoke;
+    padding: 1rem; }
 
 .caja-2 {
   background-color: rgba(38, 43, 55, 0.751);
@@ -140,7 +147,8 @@ header {
   .caja-2 div p {
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    color: whitesmoke; }
+    color: whitesmoke;
+    padding: 1rem; }
 
 .caja-3 {
   background-color: rgba(38, 43, 55, 0.751);
@@ -178,118 +186,26 @@ header {
     font-weight: bold; }
   .main-contacto p {
     font-family: "Roboto", sans-serif;
-    font-weight: bolder; }
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: 1rem; }
 
 .main-collection {
   margin: 1rem;
   padding: 1rem; }
-  .main-collection .card-1 {
-    padding: 1rem; }
-    .main-collection .card-1 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-2 {
-    padding: 1rem; }
-    .main-collection .card-2 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-3 {
-    padding: 1rem; }
-    .main-collection .card-3 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-4 {
-    padding: 1rem; }
-    .main-collection .card-4 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-5 {
-    padding: 1rem; }
-    .main-collection .card-5 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-6 {
-    padding: 1rem; }
-    .main-collection .card-6 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-7 {
-    padding: 1rem; }
-    .main-collection .card-7 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-8 {
-    padding: 1rem; }
-    .main-collection .card-8 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-9 {
-    padding: 1rem; }
-    .main-collection .card-9 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-10 {
-    padding: 1rem; }
-    .main-collection .card-10 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-11 {
-    padding: 1rem; }
-    .main-collection .card-11 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-12 {
-    padding: 1rem; }
-    .main-collection .card-12 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-13 {
-    padding: 1rem; }
-    .main-collection .card-13 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-14 {
-    padding: 1rem; }
-    .main-collection .card-14 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-15 {
-    padding: 1rem; }
-    .main-collection .card-15 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
-  .main-collection .card-16 {
-    padding: 1rem; }
-    .main-collection .card-16 .card-body .card-title {
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      padding: 0.5rem 0.5rem; }
 
 .main-qs {
   padding: 1rem; }
   .main-qs .parrafo-1 {
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    padding: 2rem; }
+    color: whitesmoke;
+    padding: 1rem; }
   .main-qs .parrafo-2 {
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    padding: 2rem; }
+    color: whitesmoke;
+    padding: 1rem; }
   .main-qs .imagen-personas {
     width: 100%; }
 

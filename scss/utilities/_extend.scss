@@ -1,0 +1,20 @@
+
+
+%card{
+    margin: $margin-1;
+    padding: $pading-1;
+    background-color: black;
+}
+
+%cardTitle {
+    font-family: $font-family;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    color: whitesmoke;
+}
+
+%header {
+    margin-top: 5rem;
+    padding: $pading-1;
+}
+
